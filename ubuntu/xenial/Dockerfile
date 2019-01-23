@@ -1,6 +1,6 @@
 FROM larvacent/ubuntu:xenial
 
-LABEL maintainer="xutongle@gmail.com"
+LABEL maintainer="support@larvacent.com"
 
 # persistent / runtime deps
 ENV PHPIZE_DEPS autoconf dpkg-dev file g++ gcc libc-dev make pkg-config re2c

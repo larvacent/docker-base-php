@@ -1,6 +1,6 @@
 FROM larvacent/alpine:3.7
 
-LABEL maintainer="xutongle@gmail.com"
+LABEL maintainer="support@larvacent.com"
 
 # persistent / runtime deps
 ENV PHPIZE_DEPS autoconf dpkg-dev file g++ gcc libc-dev make re2c linux-headers
