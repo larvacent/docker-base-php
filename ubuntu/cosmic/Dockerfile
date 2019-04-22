@@ -26,6 +26,7 @@ RUN set -x \
 		libedit2 \
 		libzip4 \
 		zlib1g \
+		libpcre3 \
 	&& rm -r /var/lib/apt/lists/*
 
 RUN cd /usr/local/src \

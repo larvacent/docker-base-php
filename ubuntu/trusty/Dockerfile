@@ -19,6 +19,7 @@ RUN set -x \
 		libjpeg8 \
 		libcurl3 \
 		libfreetype6 \
+		libpcre3 \
 	&& rm -r /var/lib/apt/lists/*
 
 RUN cd /usr/local/src \
